@@ -1,5 +1,5 @@
 # Projet-Discord-Publique
-Ici je posterai les projets sur les quels j'ai travailler.
+Ici je posterai les projets sur les quels j'ai travaillés ou je travaille.
 
-Plus d'informations sur:
- - https://jluse63.github.io/Projet-Discord-Publique/
+## Conditions
+À chaque demande j'éffecturai un devis, si j'éstime que le projet me prendra trop de temps 
