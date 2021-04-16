@@ -10,7 +10,7 @@ __Je me donne le droit de refuser toute demande.__
 ## Comment faire une demande ?
 C'est très simple, rendez-vous sur le serveur Discord et demander en identifiant 𝕵𝖚𝖑𝖊𝖘#4200 de créer un salon projet pour en discuter.
 
- - https://discord.gg/hVdJuc9zQ8
+ - https://discord.gg/ctWVVYQXDA
 
 ## Comment se passe les paiement/les dons ?
 Toutes transactions ce feront via PayPal.
