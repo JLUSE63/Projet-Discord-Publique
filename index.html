@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>Projet-Discord-Publique</title>
@@ -38,12 +38,12 @@
       font-size: 20px;
     }
     .page {
-      max-width:1012px;
+      max-width:70em;
       margin-right:auto;
       margin-left:auto;
     }
     .commands {
-      max-width:20em;
+      max-width:30em;
       margin-right:auto;
       margin-left:auto;
     }
@@ -51,9 +51,34 @@
       border: #9C9C9C;
       color: #9C9C9C;
       background-color: #333333;
-      border-radius: 1em;
+      border-radius: 8px;
       text-align: center;
-      width: 15em;
+      max-width: 15em;
+      padding: 10px;
+      transition: 1s;
+      margin: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 50px, rgba(0, 0, 0, 0) 0px 0px 5px;
+    }
+    .command:hover {
+      background-color: #F0F8FFFB;
+      color: rgb(31, 31, 31);
+    }
+    .coordonnees {
+      background-color: #333333;
+      display: flex;
+      justify-content: space-around;
+    }
+    .coordonnee {
+      background-color: #444444;
+      color: #9C9C9C;
+      max-width: 15em;
+      padding: 0px 15px;
+      text-align: center;
+    }
+    .coordonnee:hover {
+      color: #1F1F1F;
+      background-color: #F0F8FFFB;
+      color: #1F1F1F;
     }
   </style>
 
@@ -75,8 +100,8 @@
     </p>
     <p>
       Une fois le devis prêt veuillez me l'envoyer sur mon serveur <a href="https://discord.gg/ctWVVYQXDA">[ici]</a> dans un ticket.
-      Après la lecture de votre devis, je vous enverrai un message pour vous dire si j'accepte ou non de faire votre commande.
-      Je me donne le droit de refuser toute commande que je juge trop abusive ou ne respectant pas les <a href="https://discord.com/terms">ToS Discord</a>
+      <br>Après la lecture de votre devis, je vous enverrai un message pour vous dire si j'accepte ou non de faire votre commande.
+      <br>Je me donne le droit de refuser toute commande que je juge trop abusive ou ne respectant pas les <a href="https://discord.com/terms">ToS Discord</a>
     </p>
     <h2 id="remunere">Comment payer ou faire un don ?</h2>
     <p>
@@ -114,6 +139,11 @@
         <br>fichier: <a href="https://github.com/JLUSE63/Projet-Discord-Publique.oi/blob/index/Projet%20rar/Projet%20730833033950658620%20(fini).rar?raw=true">[télécharger]</a>
       </p>
     </div>
+  </div>
+  <div class="coordonnees">
+    <a href="https://discord.gg/ctWVVYQXDA" class="coordonnee"><p>Serveur</p></a>
+    <a href="https://github.com/JLUSE63/Projet-Discord-Publique.oi" class="coordonnee"><p>Projet-Discord-Publique</p></a>
+    <a href="https://github.com/JLUSE63" class="coordonnee"><p>Github</p></a>
   </div>
 </body>
 </html>
