@@ -50,9 +50,10 @@ module.exports = async(client, messageReaction, user) => {
       parent: category,
       position: message.channel.position+1,
       reason: `Ticket de ${user.tag} (${user.id}) => ${channelName}`
-    }).then((channel) => {
-      channel.updateOverwrite(user.id, { SEND_MESSAGES: true, VIEW_CHANNEL: true });
-      channel.updateOverwrite(guild.id, { SEND_MESSAGES: false, VIEW_CHANNEL: false });
+    }).then(async channel => {
+      await channel.lockPermissions();
+      await channel.updateOverwrite(user.id, { SEND_MESSAGES: true, VIEW_CHANNEL: true });
+      await channel.updateOverwrite(guild.id, { SEND_MESSAGES: false, VIEW_CHANNEL: false });
       channel.send(
         new MessageEmbed()
         .setTitle(`Ticket de ${user.tag} => ${channelName}`)
